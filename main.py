@@ -5,6 +5,7 @@ import os
 import datetime 
 import sys
 
+
 BASE_DIR = os.path.dirname(__file__)
 
 url = "https://www.boxofficemojo.com/year/world/"
@@ -103,7 +104,7 @@ def run(start_year = None, years_ago = 3):
             print(f"Finished {start_year}")
         else:
             print(f"{start_year} not found")
-            
+
         start_year -= 1
 
     return 
